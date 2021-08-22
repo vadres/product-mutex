@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /product-mutex
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/product-mutex?useSSL=false
+    username: postgres
+    password: postgres
+   
